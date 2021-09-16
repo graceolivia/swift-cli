@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6578762A26F1319E00E2CA32 /* libswiftWebKit.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6578762826F1317B00E2CA32 /* libswiftWebKit.tbd */; };
+		6578763526F28CA700E2CA32 /* chartifylibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 6578763426F28CA700E2CA32 /* chartifylibrary.h */; };
+		6578763726F28CA700E2CA32 /* chartifylibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 6578763626F28CA700E2CA32 /* chartifylibrary.m */; };
+		6578763D26F290F800E2CA32 /* chartifylibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6578763C26F290F800E2CA32 /* chartifylibrary.swift */; };
+		6578763E26F292B400E2CA32 /* chartifytest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657875F226F0D66000E2CA32 /* chartifytest.swift */; };
+		6578764326F2982F00E2CA32 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657875E526F0D63000E2CA32 /* main.swift */; };
+		6578764B26F36F4700E2CA32 /* library2.h in Headers */ = {isa = PBXBuildFile; fileRef = 6578764A26F36F4700E2CA32 /* library2.h */; };
+		6578764D26F36F4700E2CA32 /* library2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6578764C26F36F4700E2CA32 /* library2.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6578762426F12FB800E2CA32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 657875DA26F0D63000E2CA32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 657875E126F0D63000E2CA32;
+			remoteInfo = chartify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		657875E026F0D63000E2CA32 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		657875E226F0D63000E2CA32 /* chartify */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = chartify; sourceTree = BUILT_PRODUCTS_DIR; };
+		657875E526F0D63000E2CA32 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		657875F026F0D66000E2CA32 /* chartifytest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chartifytest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		657875F226F0D66000E2CA32 /* chartifytest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chartifytest.swift; sourceTree = "<group>"; };
+		657875F426F0D66000E2CA32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6578762826F1317B00E2CA32 /* libswiftWebKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftWebKit.tbd; path = usr/lib/swift/libswiftWebKit.tbd; sourceTree = SDKROOT; };
+		6578763226F28CA700E2CA32 /* libchartifylibrary.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libchartifylibrary.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		6578763426F28CA700E2CA32 /* chartifylibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chartifylibrary.h; sourceTree = "<group>"; };
+		6578763626F28CA700E2CA32 /* chartifylibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chartifylibrary.m; sourceTree = "<group>"; };
+		6578763B26F290F700E2CA32 /* chartifylibrary-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "chartifylibrary-Bridging-Header.h"; sourceTree = "<group>"; };
+		6578763C26F290F800E2CA32 /* chartifylibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chartifylibrary.swift; sourceTree = "<group>"; };
+		6578764826F36F4700E2CA32 /* liblibrary2.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = liblibrary2.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		6578764A26F36F4700E2CA32 /* library2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = library2.h; sourceTree = "<group>"; };
+		6578764C26F36F4700E2CA32 /* library2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = library2.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		657875DF26F0D63000E2CA32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6578762A26F1319E00E2CA32 /* libswiftWebKit.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657875ED26F0D66000E2CA32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6578763026F28CA700E2CA32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6578764626F36F4700E2CA32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		657875D926F0D63000E2CA32 = {
+			isa = PBXGroup;
+			children = (
+				657875E426F0D63000E2CA32 /* chartify */,
+				657875F126F0D66000E2CA32 /* chartifytest */,
+				6578763326F28CA700E2CA32 /* chartifylibrary */,
+				6578764926F36F4700E2CA32 /* library2 */,
+				657875E326F0D63000E2CA32 /* Products */,
+				6578762726F1317B00E2CA32 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		657875E326F0D63000E2CA32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				657875E226F0D63000E2CA32 /* chartify */,
+				657875F026F0D66000E2CA32 /* chartifytest.xctest */,
+				6578763226F28CA700E2CA32 /* libchartifylibrary.dylib */,
+				6578764826F36F4700E2CA32 /* liblibrary2.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		657875E426F0D63000E2CA32 /* chartify */ = {
+			isa = PBXGroup;
+			children = (
+				657875E526F0D63000E2CA32 /* main.swift */,
+			);
+			path = chartify;
+			sourceTree = "<group>";
+		};
+		657875F126F0D66000E2CA32 /* chartifytest */ = {
+			isa = PBXGroup;
+			children = (
+				657875F226F0D66000E2CA32 /* chartifytest.swift */,
+				657875F426F0D66000E2CA32 /* Info.plist */,
+			);
+			path = chartifytest;
+			sourceTree = "<group>";
+		};
+		6578762726F1317B00E2CA32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6578762826F1317B00E2CA32 /* libswiftWebKit.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6578763326F28CA700E2CA32 /* chartifylibrary */ = {
+			isa = PBXGroup;
+			children = (
+				6578763426F28CA700E2CA32 /* chartifylibrary.h */,
+				6578763C26F290F800E2CA32 /* chartifylibrary.swift */,
+				6578763626F28CA700E2CA32 /* chartifylibrary.m */,
+				6578763B26F290F700E2CA32 /* chartifylibrary-Bridging-Header.h */,
+			);
+			path = chartifylibrary;
+			sourceTree = "<group>";
+		};
+		6578764926F36F4700E2CA32 /* library2 */ = {
+			isa = PBXGroup;
+			children = (
+				6578764A26F36F4700E2CA32 /* library2.h */,
+				6578764C26F36F4700E2CA32 /* library2.m */,
+			);
+			path = library2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6578762E26F28CA700E2CA32 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6578763526F28CA700E2CA32 /* chartifylibrary.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6578764426F36F4700E2CA32 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6578764B26F36F4700E2CA32 /* library2.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		657875E126F0D63000E2CA32 /* chartify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 657875E926F0D63000E2CA32 /* Build configuration list for PBXNativeTarget "chartify" */;
+			buildPhases = (
+				657875DE26F0D63000E2CA32 /* Sources */,
+				657875DF26F0D63000E2CA32 /* Frameworks */,
+				657875E026F0D63000E2CA32 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chartify;
+			productName = chartify;
+			productReference = 657875E226F0D63000E2CA32 /* chartify */;
+			productType = "com.apple.product-type.tool";
+		};
+		657875EF26F0D66000E2CA32 /* chartifytest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 657875F526F0D66000E2CA32 /* Build configuration list for PBXNativeTarget "chartifytest" */;
+			buildPhases = (
+				657875EC26F0D66000E2CA32 /* Sources */,
+				657875ED26F0D66000E2CA32 /* Frameworks */,
+				657875EE26F0D66000E2CA32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6578762526F12FB800E2CA32 /* PBXTargetDependency */,
+			);
+			name = chartifytest;
+			productName = chartifytest;
+			productReference = 657875F026F0D66000E2CA32 /* chartifytest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6578763126F28CA700E2CA32 /* chartifylibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6578763826F28CA700E2CA32 /* Build configuration list for PBXNativeTarget "chartifylibrary" */;
+			buildPhases = (
+				6578762E26F28CA700E2CA32 /* Headers */,
+				6578762F26F28CA700E2CA32 /* Sources */,
+				6578763026F28CA700E2CA32 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chartifylibrary;
+			productName = chartifylibrary;
+			productReference = 6578763226F28CA700E2CA32 /* libchartifylibrary.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		6578764726F36F4700E2CA32 /* library2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6578764E26F36F4700E2CA32 /* Build configuration list for PBXNativeTarget "library2" */;
+			buildPhases = (
+				6578764426F36F4700E2CA32 /* Headers */,
+				6578764526F36F4700E2CA32 /* Sources */,
+				6578764626F36F4700E2CA32 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = library2;
+			productName = library2;
+			productReference = 6578764826F36F4700E2CA32 /* liblibrary2.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		657875DA26F0D63000E2CA32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					657875E126F0D63000E2CA32 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					657875EF26F0D66000E2CA32 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					6578763126F28CA700E2CA32 = {
+						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
+					};
+					6578764726F36F4700E2CA32 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 657875DD26F0D63000E2CA32 /* Build configuration list for PBXProject "chartify" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 657875D926F0D63000E2CA32;
+			productRefGroup = 657875E326F0D63000E2CA32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				657875E126F0D63000E2CA32 /* chartify */,
+				657875EF26F0D66000E2CA32 /* chartifytest */,
+				6578763126F28CA700E2CA32 /* chartifylibrary */,
+				6578764726F36F4700E2CA32 /* library2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		657875EE26F0D66000E2CA32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		657875DE26F0D63000E2CA32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6578764326F2982F00E2CA32 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657875EC26F0D66000E2CA32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6578762F26F28CA700E2CA32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6578763726F28CA700E2CA32 /* chartifylibrary.m in Sources */,
+				6578763E26F292B400E2CA32 /* chartifytest.swift in Sources */,
+				6578763D26F290F800E2CA32 /* chartifylibrary.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6578764526F36F4700E2CA32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6578764D26F36F4700E2CA32 /* library2.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6578762526F12FB800E2CA32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 657875E126F0D63000E2CA32 /* chartify */;
+			targetProxy = 6578762426F12FB800E2CA32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		657875E726F0D63000E2CA32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		657875E826F0D63000E2CA32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		657875EA26F0D63000E2CA32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/chartifytest/Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		657875EB26F0D63000E2CA32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/chartifytest/Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		657875F626F0D66000E2CA32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = chartifytest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.8thlight.chartifytest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		657875F726F0D66000E2CA32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = chartifytest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.8thlight.chartifytest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6578763926F28CA700E2CA32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "chartifylibrary/chartifylibrary-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6578763A26F28CA700E2CA32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "chartifylibrary/chartifylibrary-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6578764F26F36F4700E2CA32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6578765026F36F4700E2CA32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		657875DD26F0D63000E2CA32 /* Build configuration list for PBXProject "chartify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657875E726F0D63000E2CA32 /* Debug */,
+				657875E826F0D63000E2CA32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		657875E926F0D63000E2CA32 /* Build configuration list for PBXNativeTarget "chartify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657875EA26F0D63000E2CA32 /* Debug */,
+				657875EB26F0D63000E2CA32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		657875F526F0D66000E2CA32 /* Build configuration list for PBXNativeTarget "chartifytest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657875F626F0D66000E2CA32 /* Debug */,
+				657875F726F0D66000E2CA32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6578763826F28CA700E2CA32 /* Build configuration list for PBXNativeTarget "chartifylibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6578763926F28CA700E2CA32 /* Debug */,
+				6578763A26F28CA700E2CA32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6578764E26F36F4700E2CA32 /* Build configuration list for PBXNativeTarget "library2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6578764F26F36F4700E2CA32 /* Debug */,
+				6578765026F36F4700E2CA32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 657875DA26F0D63000E2CA32 /* Project object */;
+}
