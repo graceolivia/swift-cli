@@ -33,38 +33,56 @@ public class ChartConstructor {
         return(finished_chart)
     }
     public func make_top_row(width: Int) -> String {
-        
-        var top_row_bars = "┌"
+        var top_row_bars = ""
+        if (width > 0){
+        top_row_bars += "┌"
         if (width > 1){
         for n in 1...(width - 1) {
             top_row_bars += "─┬"
         }
         }
-        top_row_bars += "─┐\n"
+        top_row_bars += "─┐"
+        }
+        top_row_bars += "\n"
         return(top_row_bars)
     }
     public func make_middle_row(width: Int) -> String {
-        var middle_row_bars = "├"
+        var middle_row_bars = ""
+        if (width > 0){
+        middle_row_bars += "├"
+        if (width > 1){
         for i in 1...(width - 1) {
             middle_row_bars += "─┼"
         }
-        middle_row_bars += "─┤\n"
+        }
+        middle_row_bars += "─┤"
+        }
+        middle_row_bars += "\n"
         return(middle_row_bars)
     }
     public func make_bottom_row(width: Int) -> String {
-        var bottom_row_bars = "└"
+        var bottom_row_bars = ""
+        if (width > 0) {
+        bottom_row_bars += "└"
+        if (width > 1){
         for i in 1...(width - 1) {
             bottom_row_bars += "─┴"
         }
+        }
         bottom_row_bars += "─┘"
+        }
         return(bottom_row_bars)
     }
+    
     public func make_stitch_row(row: String) -> String {
         let pattern_stitches = row.components(separatedBy: " ")
-        var stitch_row_symbols = "│"
+        var stitch_row_symbols = ""
+        if (row.count > 0 ) {
+        stitch_row_symbols += "│"
         for stitch in pattern_stitches {
             stitch_row_symbols += stitchPrinting[stitch]!
             stitch_row_symbols += "│"
+        }
         }
         stitch_row_symbols += "\n"
         return(stitch_row_symbols)
